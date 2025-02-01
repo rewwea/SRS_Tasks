@@ -9,8 +9,11 @@ void formatAddress() {
     int house, apartment;
 
     getline(cin, city);
+    cout << "Улица: ";
     getline(cin, street);
+    cout << "Номер дома: ";
     cin >> house;
+    cout << "Номер квартиры: ";
     cin >> apartment;
 
     cout << "г. " << city << ", ул. " << street << ", д. " << house << ", кв. " << apartment << endl;

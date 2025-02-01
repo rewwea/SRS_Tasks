@@ -11,12 +11,16 @@ int main() {
     cin >> task;
 
     if (task == 1) {
+        cout << "Введите три числа через пробел: ";
         formatNumbers();
     } else if (task == 2) {
-        cin.ignore();
+        cin.ignore(); 
+        cout << "Введите названия городов через пробел: ";
         reverseCities();
     } else if (task == 3) {
-        cin.ignore();
+        cin.ignore(); 
+        cout << "Введите адрес построчно:" << endl;
+        cout << "Город: ";
         formatAddress();
     } else {
         cout << "Неверный выбор задачи!" << endl;
